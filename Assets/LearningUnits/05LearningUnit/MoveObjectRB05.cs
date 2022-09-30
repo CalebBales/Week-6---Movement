@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveObjectRB05 : MonoBehaviour
 {
+    // Fixed it by disabling RedCube's isKinematic value, which is manual animation rather than what we want, physics
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

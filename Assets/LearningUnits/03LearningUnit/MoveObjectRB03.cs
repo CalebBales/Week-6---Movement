@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveObjectRB03 : MonoBehaviour
 {
+    // To solve it, the BlueCube had a mass of 1000, so I just lowered it so the redCube could push
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

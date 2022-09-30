@@ -12,6 +12,8 @@ public class MoveObjectRB02 : MonoBehaviour
         // Where does one find a rigidbody these days anyway?
 
 	    //rigidbody = rigidbody;
+        // Got the rigid body component so the force would actually be added to an object, the rigid body component
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

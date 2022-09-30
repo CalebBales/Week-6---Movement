@@ -14,7 +14,8 @@ public class MoveObjectRB04 : MonoBehaviour
 
 
         // Don't move this line or add any new values (such as coefficients)!
-        rigidbody.AddForce(moveDirection, ForceMode.Force);
+        // Changed ForceMode to Impulse so that way I just hit the BlueCube, but RedCube slows down after
+        rigidbody.AddForce(moveDirection, ForceMode.Impulse);
 
         // I just want to give a nudge to the blue cube, but 
 	    // stay on the white plane and not fall over the edge myself...
